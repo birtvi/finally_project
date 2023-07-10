@@ -268,11 +268,133 @@ button {
   margin-bottom: 60px;
 }
 
+.martkutxa {
+  position: relative;
+  display: inline-block;
+}
+
 .martkutxa > img {
   display: flex;
   max-width: 1400px;
   width: 100%;
   margin-bottom: 140px;
+}
+
+.p-wrap-1 {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  margin-right: 150px;
+}
+
+.s-100 {
+  font-size: 100px;
+  color: white;
+}
+
+.p-wrap-1 > .s-22 {
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.p-wrap-1 > img {
+  position: absolute;
+  top: 18px;
+  left: 350px;
+}
+
+.p-wrap-2 {
+  position: absolute;
+  top: 50px;
+  left: 650px;
+  margin-right: 150px;
+}
+
+.p-wrap-2 > .s-22 {
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 25px;
+}
+
+.p-wrap-2 > img {
+  position: absolute;
+  top: 18px;
+  left: 350px;
+}
+
+.p-wrap-3 {
+  position: absolute;
+  top: 50px;
+  left: 1060px;
+  margin-right: 150px;
+}
+
+.p-wrap-3 > .s-22 {
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 35px;
+}
+
+/* s-4 */
+
+.s-4 {
+  background-color: #956ae1;
+  height: 100vh; /*wait */
+}
+
+.card-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.text-wrap {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.text-wrap > p {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.text-wrap > h3 {
+  font-size: 40px;
+  color: white;
+}
+
+/* cards */
+
+.cards-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-card {
+  
+}
+
+/* card photos */
+
+.first-card{
+  border: 2px solid black ;
+  max-width: 500px;
+  height: 500px;
+  width: 100%;
+  background-color: #956ae1;
   
 }
 
