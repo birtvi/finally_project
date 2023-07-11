@@ -346,7 +346,6 @@ button {
 
 .s-4 {
   background-color: #956ae1;
-  
 }
 
 .card-wrap {
@@ -354,8 +353,6 @@ button {
   width: 100%;
   margin: 0 auto;
   padding-top: 80px;
- 
-  
 }
 
 .text-wrap {
@@ -465,7 +462,7 @@ button {
 .main-container {
   max-width: 1200px;
   width: 100%;
-  
+
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -496,14 +493,20 @@ button {
   height: 300px;
 }
 
+.for-all-pic-2 {
+  display: flex;
+  justify-content: space-between;
+  height: 358px;
+}
+
 .first-mini {
-  background-color: #B28AF8;
-  border-radius: 29px;
+  background-color: #b28af8;
+  border-radius: 33px;
   max-width: 275px;
   width: 100%;
 }
 
-.head-container  > img {
+.head-container > img {
   max-width: 275px;
   width: 100%;
 }
@@ -515,6 +518,14 @@ button {
   justify-content: center;
   padding-top: 45px;
 }
+
+.body-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 45px 20px 0;
+}
+
 .max {
   font-size: 20px;
   color: white;
@@ -530,4 +541,90 @@ button {
   justify-content: center;
   align-items: center;
   padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+/* part 3 */
+
+.plus-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* footer */
+
+footer {
+  background-color: #b28af8;
+}
+
+.footer-main {
+  max-width: 515px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.footer-img {
+  margin-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-img > img {
+  max-width: 120px;
+  width: 100%;
+}
+
+.footer-texts > h3 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-texts > p {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+/* input */
+
+input::placeholder {
+  color: white;
+}
+
+
+
+.input-button-wrap {
+  width: 515px;
+  max-width: 100%;
+  position: relative;
+}
+
+
+.input-button-wrap input {
+  max-width: 515px;
+  width: 100%;
+  background-color: #b28af8;
+  border: 2px solid white;
+  border-radius: 30px;
+  height: 50px;
+  padding: 10px 15px;
+}
+
+
+.input-button-wrap button {
+  width: 160px;
+  height: 35px;
+  background-color: #ffffff;
+  color: #b28af8;
+  font-size: 16px;
+
+  aspect-ratio: 1;
+
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  
 }
