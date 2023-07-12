@@ -561,7 +561,7 @@ footer {
   max-width: 515px;
   width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .footer-img {
@@ -574,6 +574,13 @@ footer {
 .footer-img > img {
   max-width: 120px;
   width: 100%;
+}
+
+.footer-texts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer-texts > h3 {
@@ -594,14 +601,11 @@ input::placeholder {
   color: white;
 }
 
-
-
 .input-button-wrap {
   width: 515px;
   max-width: 100%;
   position: relative;
 }
-
 
 .input-button-wrap input {
   max-width: 515px;
@@ -612,7 +616,6 @@ input::placeholder {
   height: 50px;
   padding: 10px 15px;
 }
-
 
 .input-button-wrap button {
   width: 160px;
@@ -626,5 +629,57 @@ input::placeholder {
   position: absolute;
   right: 7px;
   top: 7px;
+}
+
+/* more details */
+
+.more-details {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 168px;
+  margin-bottom: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-div {
+  margin-right: 150px;
+}
+
+.first-div, .second-div, .third-div, .four-div {
+  max-width: 200px;
+  width: 100%;
+}
+
+.more-details  p {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px;
+}
+
+/* footer end */
+
+.line-last {
+  max-width: 1100px ;
+  width: 100%;
+  margin-bottom: 25px;
+  margin-left:  168px ;
   
+}
+
+.footer-end {
+  max-width: 1100px;
+  width: 100%;
+  padding-bottom: 40px ;
+  margin-left:  168px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rights {
+  display: flex;
+  align-items: flex-end;
+  color: white;
 }
