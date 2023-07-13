@@ -694,7 +694,7 @@ input::placeholder {
   
 }
 
-.contact-div {
+.article-wrap-about {
   max-width: 500px;
   width: 100%;
   display: flex;
@@ -702,15 +702,44 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 40px;
   color: white;
 }
 
-.contact-div h1, p {
-  margin-bottom: 10px;
+.article-wrap-about h4, h5, p {
+  margin-bottom: 20px;
 }
 
 
 .contact-footer {
-  padding-top: 14%;
+  padding-top: 4%;
+}
+
+
+/* services page */
+.services {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.services-header {
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+
+.services-text {
+  margin-top: 5px;
+}
+
+
+/* blog */
+
+
+
+.blog-main {
+  margin-top: 10px;
+}
+
+.blog-footer {
+  padding-top: 80px;
 }
