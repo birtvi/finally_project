@@ -1,23 +1,14 @@
 /* header */
-.s-1 {
+
+header {
   background-color: #b28af8;
 }
 
-header {
-  background-color: #b28af8 ;
-}
-
 .header-wrapper {
-  padding-top: 35px;
-
-  margin: 0 125px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 100px;
-  max-width: 1200px;
-  width: 90%;
+  width: 100%;
 }
 
 .img-nav-wrapper {
@@ -34,7 +25,7 @@ header {
 }
 
 .nav-ul > li {
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 li {
@@ -54,11 +45,15 @@ button {
 }
 
 /* s-1 */
+.s-1 {
+  background-color: #b28af8;
+  
+}
+
 .s-1-wrapper {
   display: flex;
   flex-wrap: wrap;
-}    
-/* aqvarrrrrrrrrrrr */
+}
 
 .part-1 {
   display: flex;
@@ -66,14 +61,12 @@ button {
 
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
+  padding: 135px 0;
 }
 
 .main-title {
   max-width: 500px;
   width: 100%;
-
-  margin-right: 250px;
 }
 
 .main-title > h1 {
@@ -123,14 +116,17 @@ button {
   justify-content: flex-end;
   align-items: center;
   margin-right: 50px;
+  
+  padding-left: 100px;
+  padding-bottom: 120px;
+  
 }
 
 .section-1-img {
   max-width: 500px;
   width: 100%;
-  margin-bottom: 200px;
+  
 }
-
 
 .head-1 {
   display: flex;
@@ -138,12 +134,10 @@ button {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  
+
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
-  margin-bottom: 120px;
-  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .h-1-t {
@@ -166,28 +160,27 @@ button {
   max-width: 1200px;
   width: 100%;
   display: flex;
+  margin: 0 auto;
 }
 
-.img-nakleboba {
-  margin-right: 80px;
-}
+
 .icon-wrapper {
   display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
 }
 
-.icon-wrapper > img:not(:last-child) {
-  margin-right: 45px;
+.svg-1, .svg-2, .svg-3, .svg-4, .svg-5 {
+  max-width: 152px;
+  width: 100%;
 }
 
-.img-metoba {
-  margin-left: 80px;
-}
 
 /* second-part */
 .photo-text {
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
 
   display: flex;
   justify-content: space-between;
@@ -249,9 +242,6 @@ button {
   font-size: 16px;
 }
 
-
-
-
 .text-statistic {
   max-width: 1200px;
   width: 100%;
@@ -260,9 +250,8 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 125px;
-
-
+  padding-top: 100px;
+  padding-bottom: 140px;
 }
 
 .text-in {
@@ -284,81 +273,43 @@ button {
 
 .martkutxa {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .martkutxa > img {
   display: flex;
   max-width: 1200px;
   width: 100%;
-  margin-bottom: 140px;
 }
 
-.p-wrap-1 {
+.p-wrapper {
   position: absolute;
-  top: 50px;
-  left: 100px;
-  max-width: 300px;
-  width: 100%;
-  
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-wrap-1, .p-wrap-2, .p-wrap-3 {
+  color: white;
+}
+
+.static-line {
+  background-color: white;
+  height: 110px;
+  width: 0.5px;
 }
 
 .s-100 {
-  font-size: 100px;
-  color: white;
+  font-size: 80px;
 }
 
-.p-wrap-1 > .s-22 {
+.s-22 {
   font-size: 22px;
-  color: white;
-  position: absolute;
-  top: 100px;
-  left: 50px;
+  text-align: center;
 }
 
-.p-wrap-1 > img {
-  position: absolute;
-  top: 18px;
-  left: 300px;
-}
 
-.p-wrap-2 {
-  position: absolute;
-  top: 50px;
-  left: 500px;
-  max-width: 300px;
-  width: 100%;
-  
-}
-
-.p-wrap-2 > .s-22 {
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  top: 100px;
-  left: 25px;
-}
-
-.p-wrap-2 > img {
-  position: absolute;
-  top: 18px;
-  left: 300px;
-}
-
-.p-wrap-3 {
-  position: absolute;
-  top: 50px;
-  left: 900px;
-  
-}
-
-.p-wrap-3 > .s-22 {
-  font-size: 22px;
-  color: white;
-  position: absolute;
-  top: 100px;
-  left: 35px;
-}
 
 /* s-4 */
 
@@ -369,7 +320,7 @@ button {
 .card-wrap {
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
+
   padding-top: 80px;
 }
 
@@ -377,7 +328,7 @@ button {
   max-width: 1200px;
   width: 100%;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -398,13 +349,14 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 150px;
 }
 
 /* card photos */
 
 .first-card {
   border-radius: 15px;
-  max-width: 550px;
+  max-width: 500px;
   width: 100%;
   height: 160px;
   background-color: #b28af8;
@@ -415,7 +367,7 @@ button {
 
 .second-card {
   border-radius: 15px;
-  max-width: 550px;
+  max-width: 500px;
   width: 100%;
   background-color: #b28af8;
   margin-bottom: 20px;
@@ -425,7 +377,7 @@ button {
 
 .third-card {
   border-radius: 15px;
-  max-width: 550px;
+  max-width: 500px;
   width: 100%;
   height: 160px;
   background-color: #b28af8;
@@ -434,7 +386,7 @@ button {
 
 .four-card {
   border-radius: 15px;
-  max-width: 550px;
+  max-width: 500px;
   width: 100%;
   background-color: #b28af8;
   display: flex;
@@ -481,7 +433,6 @@ button {
   max-width: 1200px;
   width: 100%;
 
-  margin: 0 125px;
   margin-top: 100px;
 }
 
@@ -578,7 +529,7 @@ footer {
 .footer-main {
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
+
   padding: 100px 0;
 }
 
@@ -654,7 +605,7 @@ input::placeholder {
 .more-details {
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
+
   margin-bottom: 50px;
 
   display: flex;
@@ -682,21 +633,22 @@ input::placeholder {
 
 /* footer end */
 
-.line-last {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 125px;
-  margin-bottom: 25px;
+.last-line {
+  width: 1200px;
+  height: 0.5px;
+  background-color: white;
+  margin: 0 auto;
 }
 
 .footer-end {
   max-width: 1200px;
   width: 100%;
-  margin: 0 125px;
+
   padding-bottom: 40px;
-  
+
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
 }
 
 .rights {
@@ -783,3 +735,10 @@ p {
   color: white;
   cursor: pointer;
 }
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+

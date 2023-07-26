@@ -1,5 +1,21 @@
 @media screen and (max-width: 1024px){
-  
+  .s-100 {
+    font-size: 40px;
+    margin: 10px 0;
+  }
+  .s-22 {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .cards-wrap {
+    justify-content: center;
+  }
+  .third-card {
+    margin-bottom: 20px;
+  }
+  .for-all-pic {
+    
+  }
 }
 
 @media screen and (max-width: 720px) {
