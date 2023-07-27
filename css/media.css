@@ -13,13 +13,18 @@
   .third-card {
     margin-bottom: 20px;
   }
-  .for-all-pic {
-    
+  .first-mini {
+    max-width: 175px;
   }
 }
 
 @media screen and (max-width: 720px) {
-
+  .header-wrapper {
+    display: none;
+  }
+  .topnav {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 320px) {

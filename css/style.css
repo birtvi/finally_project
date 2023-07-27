@@ -8,6 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -471,7 +472,7 @@ button {
 .first-mini {
   background-color: #b28af8;
   border-radius: 33px;
-  max-width: 275px;
+  max-width: 250px;
   width: 100%;
 }
 
@@ -731,14 +732,53 @@ p {
   padding-bottom: 125px;
 }
 
-.first-b {
-  color: white;
-  cursor: pointer;
-}
+
 
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #b28af8;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #b28af8;
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #b28af8;
+  color: white;
+}
+
+
+.topnav {
+  display: none;
 }
 

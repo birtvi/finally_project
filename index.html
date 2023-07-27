@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Birtvela</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
   </head>
@@ -16,7 +13,25 @@
     <!-- header -->
 
     <header>
+      <div class="topnav">
+        <a href="#home" class="active"><img src="images/logo.svg" alt="logo"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#">Home</a>
+          <a href="pages/aboutus.html">About Us</a>
+          <a href="pages/services.html">Services</a>
+          <a href="pages/blog.html">Blog</a>
+          <a href="pages/portfolio.html">Portfolio</a>
+          <a href="pages/contactus.html">Contact Us</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars "></i>
+        </a>
+      </div>
       <div class="header-wrapper">
+      
+      
         <div class="img-nav-wrapper">
           <a class="logo-theme" href="#"
             ><img class="logo" src="images/logo.svg" alt="logo"
@@ -31,12 +46,7 @@
               <li><a href="pages/contactus.html">Contact Us</a></li>
             </ul>
           </nav>
-        </div>
-        <form action="pages/contactus.html" method="get">
-          <button class="first-b" name="subject" type="submit" value="fav_HTML">
-            Contact us
-          </button>
-        </form>
+      </div>
       </div>
     </header>
     <!-- section-1 -->
@@ -398,5 +408,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/main.js">
+    </script>
   </body>
 </html>
