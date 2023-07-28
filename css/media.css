@@ -25,6 +25,23 @@
   .topnav {
     display: block;
   }
+  .for-all-pic {
+    flex-wrap:wrap;
+  }
+
+  .for-all-pic-2 {
+    flex-wrap: wrap;
+  }
+  .first-mini {
+    max-width: 250px;
+    margin-bottom: 15px;
+  }
+
+  .main-container {
+    padding: 100px 0;
+  }
+  
+
 }
 
 @media screen and (max-width: 320px) {

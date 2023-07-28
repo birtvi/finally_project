@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  
   width: 100%;
 }
 
@@ -60,13 +60,13 @@ button {
   display: flex;
   justify-content: space-between;
 
-  max-width: 1200px;
+ 
   width: 100%;
   padding: 135px 0;
 }
 
 .main-title {
-  max-width: 500px;
+  
   width: 100%;
 }
 
@@ -136,7 +136,7 @@ button {
   flex-direction: column;
   text-align: center;
 
-  max-width: 1200px;
+  
   width: 100%;
   padding-bottom: 100px;
 }
@@ -158,7 +158,7 @@ button {
 }
 
 .h-1-s {
-  max-width: 1200px;
+  
   width: 100%;
   display: flex;
   margin: 0 auto;
@@ -168,7 +168,7 @@ button {
 .icon-wrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 1200px;
+  
   width: 100%;
 }
 
@@ -180,7 +180,7 @@ button {
 
 /* second-part */
 .photo-text {
-  max-width: 1200px;
+  
   width: 100%;
 
   display: flex;
@@ -244,7 +244,7 @@ button {
 }
 
 .text-statistic {
-  max-width: 1200px;
+  
   width: 100%;
 
   display: flex;
@@ -281,7 +281,7 @@ button {
 
 .martkutxa > img {
   display: flex;
-  max-width: 1200px;
+ 
   width: 100%;
 }
 
@@ -319,14 +319,14 @@ button {
 }
 
 .card-wrap {
-  max-width: 1200px;
+  
   width: 100%;
 
   padding-top: 80px;
 }
 
 .text-wrap {
-  max-width: 1200px;
+  
   width: 100%;
   text-align: center;
   margin-top: 50px;
@@ -422,8 +422,6 @@ button {
 }
 
 .plus {
-  max-width: 67px;
-
   display: flex;
   align-items: flex-end;
 }
@@ -431,7 +429,7 @@ button {
 /* second part */
 
 .main-container {
-  max-width: 1200px;
+  
   width: 100%;
 
   margin-top: 100px;
@@ -477,7 +475,7 @@ button {
 }
 
 .head-container > img {
-  max-width: 275px;
+  max-width: 250px;
   width: 100%;
 }
 
@@ -528,7 +526,7 @@ footer {
 }
 
 .footer-main {
-  max-width: 1200px;
+  
   width: 100%;
 
   padding: 100px 0;
@@ -572,13 +570,13 @@ input::placeholder {
 }
 
 .input-button-wrap {
-  width: 1200px;
+  
   max-width: 100%;
   position: relative;
 }
 
 .input-button-wrap input {
-  max-width: 1200px;
+  
   width: 100%;
   background-color: #b28af8;
   border: 2px solid white;
@@ -604,7 +602,7 @@ input::placeholder {
 /* more details */
 
 .more-details {
-  max-width: 1200px;
+  
   width: 100%;
 
   margin-bottom: 50px;
@@ -614,15 +612,12 @@ input::placeholder {
   justify-content: space-between;
 }
 
-.first-div {
-  margin-right: 150px;
-}
 
 .first-div,
 .second-div,
 .third-div,
 .four-div {
-  max-width: 200px;
+  
   width: 100%;
 }
 
@@ -635,14 +630,14 @@ input::placeholder {
 /* footer end */
 
 .last-line {
-  width: 1200px;
+  
   height: 0.5px;
   background-color: white;
   margin: 0 auto;
 }
 
 .footer-end {
-  max-width: 1200px;
+  
   width: 100%;
 
   padding-bottom: 40px;
@@ -667,7 +662,6 @@ input::placeholder {
 }
 
 .article-wrap-about {
-  max-width: 500px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -735,7 +729,7 @@ p {
 
 
 .container {
-  max-width: 1200px;
+  
   width: 100%;
   margin: 0 auto;
 }
